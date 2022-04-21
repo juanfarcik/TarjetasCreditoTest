@@ -1,14 +1,21 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import {ReactiveFormsModule} from '@angular/forms';
+
 import { AppComponent } from './app.component';
+import { ListarTarjetaComponent } from './components/listar-tarjeta/listar-tarjeta.component';
+import { CrearTarjetaComponent } from './components/crear-tarjeta/crear-tarjeta.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ListarTarjetaComponent,
+    CrearTarjetaComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule, 
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
