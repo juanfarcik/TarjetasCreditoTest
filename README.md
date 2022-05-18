@@ -1,5 +1,8 @@
 # TarjetaCredito
 
+Fuente:
+https://www.youtube.com/watch?v=iqHKPc0ImvE&t=2899s&ab_channel=TomasRuizDiaz
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
 
 ## Development server

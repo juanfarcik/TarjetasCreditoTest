@@ -7,6 +7,9 @@ import { AppComponent } from './app.component';
 import { ListarTarjetaComponent } from './components/listar-tarjeta/listar-tarjeta.component';
 import { CrearTarjetaComponent } from './components/crear-tarjeta/crear-tarjeta.component';
 
+import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { ToastrModule } from 'ngx-toastr';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,7 +18,9 @@ import { CrearTarjetaComponent } from './components/crear-tarjeta/crear-tarjeta.
   ],
   imports: [
     BrowserModule, 
-    ReactiveFormsModule
+    ReactiveFormsModule, 
+    BrowserAnimationsModule, 
+    ToastrModule
   ],
   providers: [],
   bootstrap: [AppComponent]
